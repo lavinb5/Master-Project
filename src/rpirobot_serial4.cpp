@@ -92,6 +92,7 @@ void *thread(void *ptr)
 		}
 		buf[0] = 0; // clear the buffer
 	}
+	// git test!!
 
 	tcsetattr(fd, TCSANOW, &oldtio);
 	return  ptr;
