@@ -534,4 +534,6 @@ void PathPlanner::sendPath(int pathsize, path *p) {
 
 	Writer wr;
 	wr.write_frame('p', arr_len, path_arr);
+	// test
+	// test2
 }
